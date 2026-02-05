@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /contactos_api/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php [QSA,L]
