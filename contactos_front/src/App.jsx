@@ -17,7 +17,7 @@ function App() {
   const [enviado, setEnviado] = useState(false);
 
   const [mensaje, setMensaje] = useState("");
-  const [tipoMensaje, setTipoMensaje] = useState(""); // success | error
+  const [tipoMensaje, setTipoMensaje] = useState("");
 
 
 
@@ -172,7 +172,6 @@ const validarCampos = () => {
 
   <div className="layout">
 
-    {/* CARD AGREGAR */}
     <div className="card">
       <h2 className="card-title">Agregar contacto</h2>
 
@@ -225,7 +224,6 @@ const validarCampos = () => {
       </form>
     </div>
 
-    {/* CARD LISTA */}
     <div className="card">
       <h2 className="card-title">Lista de contactos</h2>
 
