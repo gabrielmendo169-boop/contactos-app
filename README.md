@@ -1,7 +1,7 @@
 ### Aplicación de gestión de contactos
 
 La aplicación se desarrolló utilizando arquitectura MVC con PHP (API) para el backend y ReactJS para el frontend.
-
+La comunicación entre el frontend y el backend se hace mediante una API REST que da respuestas en formato JSON
 En ella se permite crear, listar, filtrar y eliminar contactos, incluyendo validaciones básicas para nombre, email y teléfono.
 El objetivo es demostrar el consumo de una API REST desde React y mostrar de forma correcta y organizada el backend.
 
@@ -75,9 +75,9 @@ La aplicación backend sigue una arquitectura MVC organizada de la siguiente for
 
 contactos_api/
 ├── controllers/
-│ └── ContactoController.php
+│ └── ContactosController.php
 ├── models/
-│ └── Contacto.php
+│ └── Contactos.php
 ├── views/
 │ └── (no utilizada, la API devuelve JSON)
 ├── config/
